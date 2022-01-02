@@ -1,0 +1,92 @@
+.card{
+  margin: auto;
+  height: 500px;
+  width: 315px;
+  border: 1px solid black;
+  margin-top: 115px;
+  border-radius: 19px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+    bottom: 40px;
+
+
+
+}
+body{
+  background-color:lightblue
+}
+.title{
+  margin: auto;
+  background-color: plum;
+  height: 50px;
+  margin-top: 18px;
+}
+.title h1{
+  text-align: center;
+  color: #fff;
+}
+.inputf input{
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  
+}
+.inputf{
+  margin: auto;
+  margin-top: 39px;
+  margin-left: 44px;
+}
+.inputf button{
+  margin-left: 7px;
+  border-radius: 50px;
+  background-color: plum;
+  border: 1px solid white;
+  color: #fff;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  font-size: 24px;
+  position: relative;
+  top: 12px;
+}
+.inputf button:hover{
+  background-color: #20bf6b;
+}
+.inputf hr{
+  width: 180px;
+  color: plum;
+  margin-right: 75px;
+  height: 1px;
+  background-color: plum;
+  border-radius: 40px;
+}
+.list ul{
+  list-style: none;
+
+}
+.cross{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.cross .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+background-color: #8566aa;
+border-radius: 50%;
+margin: 0 15px 0 35px;
+box-shadow: 5px 5px 15px -5px rgba(0, 0,0, 0.3);
+color: white;
+}
+.cross .fa-times:hover{
+  color: crimson;
+}
+
